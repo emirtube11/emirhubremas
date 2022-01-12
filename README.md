@@ -2,7 +2,7 @@ local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinl
 
 local X = Material.Load({
 	Title = "EmirHUB (Remastered)",
-	Style = 3,
+	Style = 1,
 	SizeX = 500,
 	SizeY = 350,
 	Theme = "Dark",
